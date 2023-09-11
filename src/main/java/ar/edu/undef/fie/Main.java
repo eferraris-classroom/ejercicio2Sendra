@@ -9,18 +9,20 @@ package ar.edu.undef.fie;
 public class Main {
     public static void main(String[] args) {
 
+
         int [] numerosEnteros = {4, 5, 6, 3, 2, 4};
         int valor = 6;
 
+
         for (int numero : numerosEnteros) {
                 if (numero == valor) {
-                    return True;
+                     System.out.println("True");
 
                 }
         }
 
-        }
     }
+}
 
 
 
